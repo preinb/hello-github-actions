@@ -5,8 +5,7 @@ on: push
 jobs:
  
  build:
- 
-   name:  Hello world action
+    name: Hello world action
    
    runs-on: ubuntu-latest
    
@@ -17,6 +16,5 @@ jobs:
    - uses:  ./action-a
    
      with:
-      MY_NAME:  "MONA"  
-     
-       
+      MY_NAME: "MONA"  
+      
