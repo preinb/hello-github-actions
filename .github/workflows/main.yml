@@ -1,8 +1,12 @@
+name: A workflow for my Hello World File
+
+on: push
+
 jobs:
  
  build:
  
-   name:  Hello workd action
+   name:  Hello world action
    
    runs-on: ubuntu-latest
    
@@ -12,6 +16,7 @@ jobs:
    
    - uses:  ./action-a
    
-   with:
-   
-   MY_NAME:  "Mona"
+     with:
+     
+     MY_NAME: 'Mona"
+       
